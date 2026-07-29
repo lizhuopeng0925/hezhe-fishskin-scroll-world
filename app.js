@@ -97,7 +97,7 @@ world.querySelectorAll('.sw-route__dot').forEach((button, index) => {
 });
 
 const MUSIC = {
-  src: 'assets/audio/chinese-relaxing-villatic-music.mp3',
+  src: 'assets/audio/chinese-relaxing-villatic-music.mp3?v=96k',
   volume: 0.18,
 };
 
