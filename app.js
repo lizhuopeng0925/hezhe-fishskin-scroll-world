@@ -123,9 +123,11 @@ function mountBackgroundMusic() {
   const audio = document.createElement('audio');
   audio.className = 'sw-background-audio';
   audio.src = MUSIC.src;
+  audio.autoplay = true;
   audio.loop = true;
   audio.preload = 'auto';
   audio.volume = 0;
+  audio.setAttribute('autoplay', '');
   audio.setAttribute('aria-hidden', 'true');
 
   const cta = topbar.querySelector('.sw-topcta');
@@ -204,11 +206,20 @@ function mountBackgroundMusic() {
 
   audio.addEventListener('error', () => setState('unavailable'));
 
-  const unlockEvents = ['pointerdown', 'touchstart', 'keydown'];
+  const unlockEvents = ['pointerdown', 'touchstart', 'click', 'keydown', 'wheel'];
+  function removeUnlockListeners() {
+    unlockEvents.forEach((name) => document.removeEventListener(name, unlockOnFirstGesture));
+  }
+
   function unlockOnFirstGesture(event) {
     if (event.target instanceof Element && event.target.closest('.sw-audio-toggle')) return;
-    unlockEvents.forEach((name) => document.removeEventListener(name, unlockOnFirstGesture));
-    if (audio.paused) playMusic();
+    if (!audio.paused) {
+      removeUnlockListeners();
+      return;
+    }
+    playMusic().then((playing) => {
+      if (playing) removeUnlockListeners();
+    });
   }
   unlockEvents.forEach((name) => document.addEventListener(name, unlockOnFirstGesture, { passive: true }));
 
