@@ -29,6 +29,84 @@ body {
   color: #f3eadb;
 }
 
+body.sw-enter-open {
+  overflow: hidden;
+}
+
+.sw-enter {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  color: #f3eadb;
+  background:
+    radial-gradient(circle at 50% 38%, rgb(196 161 90 / 18%), transparent 34%),
+    rgb(6 5 4 / 88%);
+  backdrop-filter: blur(10px);
+  transition: opacity 240ms ease, visibility 240ms ease;
+}
+
+.sw-enter.is-leaving {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sw-enter__panel {
+  width: min(88vw, 420px);
+  padding: 40px 30px 34px;
+  text-align: center;
+  border: 1px solid rgb(196 161 90 / 50%);
+  background: rgb(10 8 6 / 88%);
+  box-shadow: 0 24px 90px rgb(0 0 0 / 55%);
+}
+
+.sw-enter__eyebrow {
+  margin: 0 0 14px;
+  color: #c4a15a;
+  font: 600 0.78rem/1.4 var(--sw-font-body);
+  letter-spacing: 0.18em;
+}
+
+.sw-enter h1 {
+  margin: 0 0 28px;
+  color: #f3eadb;
+  font: 700 clamp(2.4rem, 10vw, 4rem)/1 var(--sw-font-display);
+  letter-spacing: 0.08em;
+}
+
+.sw-enter__button {
+  min-width: 176px;
+  min-height: 48px;
+  padding: 12px 26px;
+  color: #0a0806;
+  border: 1px solid #d4b46f;
+  border-radius: 1px;
+  background: #c4a15a;
+  font: 700 1rem/1.2 var(--sw-font-body);
+  letter-spacing: 0.12em;
+  cursor: pointer;
+}
+
+.sw-enter__button:hover,
+.sw-enter__button:focus-visible {
+  background: #d4b46f;
+  outline: 2px solid rgb(212 180 111 / 45%);
+  outline-offset: 4px;
+}
+
+.sw-enter__button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.sw-enter__note {
+  margin: 14px 0 0;
+  color: #c5b79f;
+  font: 500 0.76rem/1.5 var(--sw-font-body);
+}
+
 ::selection {
   color: #0a0806;
   background: #c4a15a;

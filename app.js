@@ -74,19 +74,19 @@ mountScrollWorld(document.getElementById('world'), {
   atmosphere: true,
   crossfade: 0.1,
   diveScroll: 1.3,
-  connScroll: 1,
+  connScroll: 1.55,
   sections,
   connectors: [
-    'assets/video/desktop/web/01-wutiku-to-trousers.mp4?v=60fps',
-    'assets/video/desktop/web/02-trousers-to-ula.mp4',
-    'assets/video/desktop/web/03-ula-to-tools.mp4',
-    'assets/video/desktop/web/04-tools-to-patterns.mp4',
+    'assets/video/desktop/web/01-wutiku-to-trousers.mp4?v=60fps-20260729',
+    'assets/video/desktop/web/02-trousers-to-ula.mp4?v=60fps-20260729',
+    'assets/video/desktop/web/03-ula-to-tools.mp4?v=60fps-20260729',
+    'assets/video/desktop/web/04-tools-to-patterns.mp4?v=60fps-20260729',
   ],
   connectorsMobile: [
-    'assets/video/mobile/web/01-wutiku-to-trousers.mp4?v=60fps',
-    'assets/video/mobile/web/02-trousers-to-ula.mp4',
-    'assets/video/mobile/web/03-ula-to-tools.mp4',
-    'assets/video/mobile/web/04-tools-to-patterns.mp4',
+    'assets/video/mobile/web/01-wutiku-to-trousers.mp4?v=60fps-20260729',
+    'assets/video/mobile/web/02-trousers-to-ula.mp4?v=60fps-20260729',
+    'assets/video/mobile/web/03-ula-to-tools.mp4?v=60fps-20260729',
+    'assets/video/mobile/web/04-tools-to-patterns.mp4?v=60fps-20260729',
   ],
 });
 
@@ -136,11 +136,30 @@ function mountBackgroundMusic() {
   topbar.appendChild(actions);
   world.appendChild(audio);
 
+  const entrance = document.createElement('div');
+  entrance.className = 'sw-enter';
+  entrance.setAttribute('role', 'dialog');
+  entrance.setAttribute('aria-modal', 'true');
+  entrance.setAttribute('aria-labelledby', 'sw-enter-title');
+  entrance.innerHTML = `
+    <div class="sw-enter__panel">
+      <p class="sw-enter__eyebrow">赫哲族鱼皮数字展陈</p>
+      <h1 id="sw-enter-title">鱼皮成境</h1>
+      <button class="sw-enter__button" type="button">进入展览</button>
+      <p class="sw-enter__note">轻触后开启背景音乐</p>
+    </div>
+  `;
+  document.body.classList.add('sw-enter-open');
+  document.body.appendChild(entrance);
+  const enterButton = entrance.querySelector('.sw-enter__button');
+
   let fadeFrame = 0;
+  let musicPlaying = false;
 
   function setState(state) {
     const playing = state === 'playing';
     const unavailable = state === 'unavailable';
+    musicPlaying = playing;
     const label = unavailable
       ? '背景音乐加载失败'
       : playing
@@ -196,6 +215,12 @@ function mountBackgroundMusic() {
     });
   }
 
+  function dismissEntrance() {
+    entrance.classList.add('is-leaving');
+    document.body.classList.remove('sw-enter-open');
+    window.setTimeout(() => entrance.remove(), 260);
+  }
+
   toggle.addEventListener('click', () => {
     if (audio.paused) {
       playMusic();
@@ -212,7 +237,7 @@ function mountBackgroundMusic() {
   }
 
   function unlockOnFirstGesture(event) {
-    if (event.target instanceof Element && event.target.closest('.sw-audio-toggle')) return;
+    if (event.target instanceof Element && event.target.closest('.sw-audio-toggle, .sw-enter')) return;
     if (!audio.paused) {
       removeUnlockListeners();
       return;
@@ -223,6 +248,25 @@ function mountBackgroundMusic() {
   }
   unlockEvents.forEach((name) => document.addEventListener(name, unlockOnFirstGesture, { passive: true }));
 
+  enterButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    enterButton.disabled = true;
+    enterButton.textContent = '正在进入…';
+
+    const entered = musicPlaying ? Promise.resolve(true) : playMusic();
+    entered.then((playing) => {
+      if (!playing) {
+        enterButton.disabled = false;
+        enterButton.textContent = '再次轻触开启音乐';
+        return;
+      }
+      removeUnlockListeners();
+      dismissEntrance();
+    });
+  });
+
+  window.requestAnimationFrame(() => enterButton.focus({ preventScroll: true }));
   playMusic();
 }
 
