@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">赫哲族捕鱼圆章</title>
+  <desc id="desc">由捕鱼者、舟、鱼和水浪组成的透明背景矢量标识</desc>
+  <g fill="none" stroke="#c4a15a" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="64" r="59" fill="#0a0806" stroke-width="5"/>
+    <circle cx="64" cy="64" r="52" stroke-width="2"/>
+    <path d="M13 83c9-9 18-9 27 0s18 9 27 0 18-9 27 0 18 9 24 1M10 93c8-8 16-8 24 0s16 8 24 0 16-8 24 0 16 8 32-1" stroke-width="4"/>
+    <path d="M37 78h48l-9 10H46z" fill="#c4a15a" stroke-width="2"/>
+    <path d="M43 74c1-11 4-17 10-23m-4 5 7 5m-9 0 8 5M53 51l-7-7m9 20 9 12M52 60l-5 14" stroke-width="4"/>
+    <circle cx="46" cy="42" r="6" fill="#c4a15a" stroke-width="2"/>
+    <path d="M57 29c12-8 25-7 37 3-11 10-25 13-39 7l-8 6m47-13 8-7m-8 7 9 5" fill="#c4a15a" stroke-width="2"/>
+    <circle cx="84" cy="31" r="2" fill="#0a0806" stroke="none"/>
+    <path d="M22 31h18m48 15h18M27 23l5-5 5 5m54 1 5-5 5 5" stroke-width="3"/>
+  </g>
+</svg>

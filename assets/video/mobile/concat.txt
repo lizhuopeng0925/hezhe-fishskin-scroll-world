@@ -1,0 +1,4 @@
+file 'segments/01-wutiku-to-trousers.mp4'
+file 'segments/02-trousers-to-ula.mp4'
+file 'segments/03-ula-to-tools.mp4'
+file 'segments/04-tools-to-patterns.mp4'
