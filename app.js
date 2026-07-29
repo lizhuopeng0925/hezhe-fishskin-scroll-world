@@ -251,18 +251,10 @@ function mountBackgroundMusic() {
   enterButton.addEventListener('click', (event) => {
     event.preventDefault();
     event.stopPropagation();
-    enterButton.disabled = true;
-    enterButton.textContent = '正在进入…';
-
+    dismissEntrance();
     const entered = musicPlaying ? Promise.resolve(true) : playMusic();
     entered.then((playing) => {
-      if (!playing) {
-        enterButton.disabled = false;
-        enterButton.textContent = '再次轻触开启音乐';
-        return;
-      }
-      removeUnlockListeners();
-      dismissEntrance();
+      if (playing) removeUnlockListeners();
     });
   });
 
