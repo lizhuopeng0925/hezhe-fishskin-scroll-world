@@ -123,11 +123,9 @@ function mountBackgroundMusic() {
   const audio = document.createElement('audio');
   audio.className = 'sw-background-audio';
   audio.src = MUSIC.src;
-  audio.autoplay = true;
   audio.loop = true;
   audio.preload = 'auto';
   audio.volume = 0;
-  audio.setAttribute('autoplay', '');
   audio.setAttribute('aria-hidden', 'true');
 
   const cta = topbar.querySelector('.sw-topcta');
@@ -259,7 +257,6 @@ function mountBackgroundMusic() {
   });
 
   window.requestAnimationFrame(() => enterButton.focus({ preventScroll: true }));
-  playMusic();
 }
 
 mountBackgroundMusic();
