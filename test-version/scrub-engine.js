@@ -325,16 +325,17 @@ function mountScrollWorld(container, config) {
   }
 
   function raf() {
-    const eps = isMobile() ? 0.02 : 0.008;   // coarser seek step on phones = fewer decodes
+    const eps = isMobile() ? 0.006 : 0.003;
     for (let i = 0; i < NSEG; i++) {
       const s = SEGMENTS[i];
       if (!s.hasClip || !s.ready || !s.video) continue;
-      // Never queue a seek while the decoder is still resolving the last one.
-      // On phones a fast flick would otherwise pile up seeks and freeze the clip;
-      // cur keeps lerping, so we snap to the latest target the moment it's free.
+      // Never queue a seek while the decoder is resolving the last one. A short
+      // critically damped catch-up bridges wheel-event gaps without turning the
+      // clip into independently playing video; it settles in roughly 0.1 seconds.
       if (s.video.seeking) continue;
       if (!s.visible && Math.abs(s.cur - s.target) < 0.002) continue;
-      s.cur += (s.target - s.cur) * (reduce ? 1 : 0.18);
+      const delta = s.target - s.cur;
+      s.cur = Math.abs(delta) < 0.002 ? s.target : s.cur + delta * 0.62;
       const dur = s.video.duration || 1;
       const t = clamp(s.cur, 0, 0.999) * dur;
       if (Math.abs(s.video.currentTime - t) > eps) { try { s.video.currentTime = t; } catch (e) {} }

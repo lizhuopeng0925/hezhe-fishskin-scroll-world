@@ -362,7 +362,7 @@ body {
 
 .wall-intro {
   max-width: 64ch;
-  margin: 0;
+  margin: 24px 0 0;
   color: #d4c8b8;
   font-size: clamp(1rem, 1.25vw, 1.16rem);
   line-height: 1.9;
@@ -668,6 +668,57 @@ body {
 }
 
 @media (max-width: 560px) {
+  /* Keep the exhibit visible on narrow screens: reduce wrapping and compact
+     the full copy stack without changing the desktop presentation. */
+  .sw-copy {
+    width: min(60vw, 250px);
+    right: 44px;
+    bottom: calc(clamp(34px, 7dvh, 58px) + env(safe-area-inset-bottom));
+  }
+
+  .sw-copy__num,
+  .sw-copy__eyebrow {
+    font-size: 0.72rem;
+  }
+
+  .sw-copy__eyebrow {
+    margin-top: 6px;
+  }
+
+  .sw-copy__title {
+    max-width: 15ch;
+    margin-top: 9px;
+    font-size: clamp(1.72rem, 7.4vw, 1.95rem);
+    line-height: 1.1;
+  }
+
+  .sw-copy__body {
+    max-width: 30ch;
+    margin-top: 8px;
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .sw-copy__tags {
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .sw-copy__tags li {
+    padding: 3px 7px;
+    font-size: 0.64rem;
+  }
+
+  .sw-copy__cta {
+    gap: 7px;
+    margin-top: 9px;
+  }
+
+  .sw-btn {
+    padding: 7px 9px;
+    font-size: 0.68rem;
+  }
+
   .wall-header h1 {
     font-size: clamp(2.25rem, 10vw, 3rem);
   }

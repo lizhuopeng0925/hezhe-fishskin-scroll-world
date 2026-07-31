@@ -1,0 +1,9 @@
+# 大型二进制资产
+assets/video/
+assets/audio/
+assets/stills/
+assets/source/
+output/
+
+# 系统文件
+.DS_Store

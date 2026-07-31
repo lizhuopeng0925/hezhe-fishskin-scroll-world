@@ -74,19 +74,19 @@ mountScrollWorld(document.getElementById('world'), {
   atmosphere: true,
   crossfade: 0.1,
   diveScroll: 1.3,
-  connScroll: 1.35,
+  connScroll: 1.55,
   sections,
   connectors: [
-    'assets/video/desktop/web/01-wutiku-to-trousers.mp4',
-    'assets/video/desktop/web/02-trousers-to-ula.mp4',
-    'assets/video/desktop/web/03-ula-to-tools.mp4',
-    'assets/video/desktop/web/04-tools-to-patterns.mp4',
+    'assets/video/desktop/web/01-wutiku-to-trousers.mp4?v=60fps-20260729',
+    'assets/video/desktop/web/02-trousers-to-ula.mp4?v=60fps-20260729',
+    'assets/video/desktop/web/03-ula-to-tools.mp4?v=60fps-20260729',
+    'assets/video/desktop/web/04-tools-to-patterns.mp4?v=60fps-20260729',
   ],
   connectorsMobile: [
-    'assets/video/mobile/web/01-wutiku-to-trousers.mp4',
-    'assets/video/mobile/web/02-trousers-to-ula.mp4',
-    'assets/video/mobile/web/03-ula-to-tools.mp4',
-    'assets/video/mobile/web/04-tools-to-patterns.mp4',
+    'assets/video/mobile/web/01-wutiku-to-trousers.mp4?v=60fps-20260729',
+    'assets/video/mobile/web/02-trousers-to-ula.mp4?v=60fps-20260729',
+    'assets/video/mobile/web/03-ula-to-tools.mp4?v=60fps-20260729',
+    'assets/video/mobile/web/04-tools-to-patterns.mp4?v=60fps-20260729',
   ],
 });
 
@@ -97,7 +97,7 @@ world.querySelectorAll('.sw-route__dot').forEach((button, index) => {
 });
 
 const MUSIC = {
-  src: 'assets/audio/chinese-relaxing-villatic-music.mp3',
+  src: 'assets/audio/chinese-relaxing-villatic-music.mp3?v=96k',
   volume: 0.18,
 };
 
@@ -135,12 +135,16 @@ function mountBackgroundMusic() {
   world.appendChild(audio);
 
   let fadeFrame = 0;
+  let musicStopped = false;
 
   function setState(state) {
     const playing = state === 'playing';
     const unavailable = state === 'unavailable';
+    const stopped = state === 'stopped';
     const label = unavailable
       ? '背景音乐加载失败'
+      : stopped
+        ? '背景音乐已关闭'
       : playing
         ? '关闭背景音乐'
         : '播放背景音乐';
@@ -151,7 +155,7 @@ function mountBackgroundMusic() {
     toggle.setAttribute('aria-label', label);
     toggle.setAttribute('aria-pressed', String(playing));
     toggle.dataset.tooltip = label;
-    toggle.disabled = unavailable;
+    toggle.disabled = unavailable || stopped;
   }
 
   function fadeVolume(to, duration, done) {
@@ -173,10 +177,15 @@ function mountBackgroundMusic() {
   }
 
   function playMusic() {
+    if (musicStopped) return Promise.resolve(false);
     cancelAnimationFrame(fadeFrame);
     audio.volume = 0;
     return audio.play()
       .then(() => {
+        if (musicStopped) {
+          audio.pause();
+          return false;
+        }
         setState('playing');
         fadeVolume(MUSIC.volume, 700);
         return true;
@@ -187,32 +196,35 @@ function mountBackgroundMusic() {
       });
   }
 
-  function pauseMusic() {
+  function stopMusic() {
+    musicStopped = true;
+    removeUnlockListeners();
     fadeVolume(0, 300, () => {
       audio.pause();
-      setState('paused');
+      setState('stopped');
     });
   }
 
-  toggle.addEventListener('click', () => {
-    if (audio.paused) {
-      playMusic();
-    } else {
-      pauseMusic();
-    }
-  });
+  toggle.addEventListener('click', stopMusic);
 
   audio.addEventListener('error', () => setState('unavailable'));
 
-  const unlockEvents = ['pointerdown', 'touchstart', 'keydown'];
+  const unlockEvents = ['pointerdown', 'touchstart', 'click', 'keydown', 'wheel'];
+  function removeUnlockListeners() {
+    unlockEvents.forEach((name) => document.removeEventListener(name, unlockOnFirstGesture));
+  }
+
   function unlockOnFirstGesture(event) {
     if (event.target instanceof Element && event.target.closest('.sw-audio-toggle')) return;
-    unlockEvents.forEach((name) => document.removeEventListener(name, unlockOnFirstGesture));
-    if (audio.paused) playMusic();
+    if (!audio.paused) {
+      removeUnlockListeners();
+      return;
+    }
+    playMusic().then((playing) => {
+      if (playing) removeUnlockListeners();
+    });
   }
   unlockEvents.forEach((name) => document.addEventListener(name, unlockOnFirstGesture, { passive: true }));
-
-  playMusic();
 }
 
 mountBackgroundMusic();
