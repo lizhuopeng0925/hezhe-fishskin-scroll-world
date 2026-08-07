@@ -1,19 +1,17 @@
-# 鱼皮成境基准版
+# 鱼皮成境正式版
 
-- 状态：冻结为后续测试修改的视觉与功能基准
-- 建立时间：2026-07-29
+- 状态：当前唯一正式版本
+- 晋升时间：2026-08-07
 - 本地地址：`http://127.0.0.1:4173/`
-- 测试副本：`http://127.0.0.1:4173/test-version/`
-- 发布状态：仅本地预览，尚未建立正式宣传 URL
+- 公网地址：`https://hezhe-fishskin-scroll-world.pages.dev/`
+- 内容来源：原 `test-version/` 最新测试版；晋升后已删除重复测试目录
 
-后续实验改动只进入 `test-version/`。除非明确要求同步，根目录基准版不随测试版修改。
-
-## 建立时核心文件 SHA-256
+## 核心文件 SHA-256
 
 ```text
-c8bc0fdc2c2dba194ba8bf0371fa9f396ca875fde211ac067fcdc5624faddd85  index.html
-ef0c9fd6f5b3c030ae2956d58884d4cbb22e8c27ad83f99ab03b7c02be40026e  styles.css
-87cfb460dd7992c87c080c3ac88520b29b6049726c73016218747c9f42d88bdf  app.js
-630bb1ab6101e5ed54eb1a24ab0be3f29e3744a95e156835b89541ea7c04752b  scrub-engine.js
+276994eb38f2971dbb0ea7c277d3c89889f67e6ab2a97754a4e2853e7fd82aa3  index.html
+e34625fd9e6ebe781c8ff11f6bee3bc305cb316925610bbe2b0ad1d22d70a579  styles.css
+6b195fbbbc81faf9a4f6266503cf8870fe25b66d63ecf8455f837f678607dcc0  app.js
+08c9c492f86f4c996cb23c5ca472b178c31fe2a5e3be362dfbadcb60ed365ba5  scrub-engine.js
 e8df1484e85ca832e5cb2cafc30907eca3ca32228782ec141ca7861333dc7e53  favicon.svg
 ```
