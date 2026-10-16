@@ -1,0 +1,582 @@
+{
+  "archived_on": "2026-10-16",
+  "source": "https://hezhe-fishskin-scroll-world.pages.dev/",
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/",
+      "bytes": 8779,
+      "sha256": "7f3598587a28d1514e6c44d64c7841029b041ab50052da7de3b1fcc5ee14ad7b"
+    },
+    {
+      "path": "en/index.html",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/",
+      "bytes": 9746,
+      "sha256": "9408ca8a9afbe88ccd9956c9cba4c980260520e0cfdd0fb72ab35c8c50fa0e03"
+    },
+    {
+      "path": "test-version/index.html",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/",
+      "bytes": 8787,
+      "sha256": "67fb67bf19cf965ff04237da9bdecf42cc70d303265bdffb0f1ae5bace9b47be"
+    },
+    {
+      "path": "app.js",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/app.js?v=audio-progressive-20260808",
+      "bytes": 9071,
+      "sha256": "01de04a87a93c4119bcbc1f1043c1521708ac41f7570d25114a8cdd2521dbe30"
+    },
+    {
+      "path": "assets/source/heritage-01-cloud-pattern-trousers.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/source/heritage-01-cloud-pattern-trousers.jpg",
+      "bytes": 68635,
+      "sha256": "add18a3146a3e17a2df5d9eb94fc20ae63ce08c832561911356078494bb1db67"
+    },
+    {
+      "path": "assets/source/heritage-02-traditional-boots.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/source/heritage-02-traditional-boots.jpg",
+      "bytes": 75491,
+      "sha256": "5ca1d545299d7ebc0022269d950400aa03a79081c6c5573c3cc23862e9b74d41"
+    },
+    {
+      "path": "assets/source/heritage-03-minzu-museum-fishskin-suit.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/source/heritage-03-minzu-museum-fishskin-suit.jpg",
+      "bytes": 89006,
+      "sha256": "91772081b7a1b8ee5f3fec06e7292f33e5c37b3b3d518ac6393464ca6b6f57e5"
+    },
+    {
+      "path": "assets/source/heritage-04-maritime-museum-canoe.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/source/heritage-04-maritime-museum-canoe.jpg",
+      "bytes": 807478,
+      "sha256": "b5bf4b77bc17a9fbefa4bdb91e2f04d70421f81a65266d533ae7a28b8bad8d69"
+    },
+    {
+      "path": "assets/source/heritage-05-maritime-exhibition.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/source/heritage-05-maritime-exhibition.jpg",
+      "bytes": 375709,
+      "sha256": "d06665b77235bd563dc326a313b3d0a40a724e6aae6c93634a1cb33c2e6459ed"
+    },
+    {
+      "path": "en/app.js",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/app.js?v=sound-audio-20260813",
+      "bytes": 8000,
+      "sha256": "f1d4198f9b14553e17d5f301a10d4b8327d092b40e289e1ce8426e6ee2a8e67d"
+    },
+    {
+      "path": "en/assets/source/heritage-01-cloud-pattern-trousers.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/source/heritage-01-cloud-pattern-trousers.jpg",
+      "bytes": 68635,
+      "sha256": "add18a3146a3e17a2df5d9eb94fc20ae63ce08c832561911356078494bb1db67"
+    },
+    {
+      "path": "en/assets/source/heritage-02-traditional-boots.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/source/heritage-02-traditional-boots.jpg",
+      "bytes": 75491,
+      "sha256": "5ca1d545299d7ebc0022269d950400aa03a79081c6c5573c3cc23862e9b74d41"
+    },
+    {
+      "path": "en/assets/source/heritage-03-minzu-museum-fishskin-suit.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/source/heritage-03-minzu-museum-fishskin-suit.jpg",
+      "bytes": 89006,
+      "sha256": "91772081b7a1b8ee5f3fec06e7292f33e5c37b3b3d518ac6393464ca6b6f57e5"
+    },
+    {
+      "path": "en/assets/source/heritage-04-maritime-museum-canoe.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/source/heritage-04-maritime-museum-canoe.jpg",
+      "bytes": 807478,
+      "sha256": "b5bf4b77bc17a9fbefa4bdb91e2f04d70421f81a65266d533ae7a28b8bad8d69"
+    },
+    {
+      "path": "en/assets/source/heritage-05-maritime-exhibition.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/source/heritage-05-maritime-exhibition.jpg",
+      "bytes": 375709,
+      "sha256": "d06665b77235bd563dc326a313b3d0a40a724e6aae6c93634a1cb33c2e6459ed"
+    },
+    {
+      "path": "en/favicon.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/favicon.svg",
+      "bytes": 305,
+      "sha256": "e8df1484e85ca832e5cb2cafc30907eca3ca32228782ec141ca7861333dc7e53"
+    },
+    {
+      "path": "en/scrub-engine.js",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/scrub-engine.js",
+      "bytes": 32226,
+      "sha256": "55b8c78bab06be56bdd3e2ad474c85e2b26ddd24bbf6b237cc98782b020bda85"
+    },
+    {
+      "path": "en/styles.css",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/styles.css?v=sound-state-20260813",
+      "bytes": 21303,
+      "sha256": "0832cd7137d13116693d524eafaac4c70344981533a8d1b84340bf9b126f4f9d"
+    },
+    {
+      "path": "favicon.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/favicon.svg",
+      "bytes": 305,
+      "sha256": "e8df1484e85ca832e5cb2cafc30907eca3ca32228782ec141ca7861333dc7e53"
+    },
+    {
+      "path": "scrub-engine.js",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/scrub-engine.js",
+      "bytes": 31110,
+      "sha256": "08c9c492f86f4c996cb23c5ca472b178c31fe2a5e3be362dfbadcb60ed365ba5"
+    },
+    {
+      "path": "styles.css",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/styles.css",
+      "bytes": 21177,
+      "sha256": "d1fd610f5a2e450626a848d9bb6301d3a02bafd11f24eae8ac86177f373f5856"
+    },
+    {
+      "path": "test-version/app.js",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/app.js?v=sound-audio-20260813",
+      "bytes": 7193,
+      "sha256": "cd81ec74280d624175de3a02776e195cf6b120b539d3fcf47ba454a2c17bd12d"
+    },
+    {
+      "path": "test-version/assets/source/heritage-01-cloud-pattern-trousers.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/source/heritage-01-cloud-pattern-trousers.jpg",
+      "bytes": 68635,
+      "sha256": "add18a3146a3e17a2df5d9eb94fc20ae63ce08c832561911356078494bb1db67"
+    },
+    {
+      "path": "test-version/assets/source/heritage-02-traditional-boots.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/source/heritage-02-traditional-boots.jpg",
+      "bytes": 75491,
+      "sha256": "5ca1d545299d7ebc0022269d950400aa03a79081c6c5573c3cc23862e9b74d41"
+    },
+    {
+      "path": "test-version/assets/source/heritage-03-minzu-museum-fishskin-suit.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/source/heritage-03-minzu-museum-fishskin-suit.jpg",
+      "bytes": 89006,
+      "sha256": "91772081b7a1b8ee5f3fec06e7292f33e5c37b3b3d518ac6393464ca6b6f57e5"
+    },
+    {
+      "path": "test-version/assets/source/heritage-04-maritime-museum-canoe.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/source/heritage-04-maritime-museum-canoe.jpg",
+      "bytes": 807478,
+      "sha256": "b5bf4b77bc17a9fbefa4bdb91e2f04d70421f81a65266d533ae7a28b8bad8d69"
+    },
+    {
+      "path": "test-version/assets/source/heritage-05-maritime-exhibition.jpg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/source/heritage-05-maritime-exhibition.jpg",
+      "bytes": 375709,
+      "sha256": "d06665b77235bd563dc326a313b3d0a40a724e6aae6c93634a1cb33c2e6459ed"
+    },
+    {
+      "path": "test-version/favicon.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/favicon.svg",
+      "bytes": 305,
+      "sha256": "e8df1484e85ca832e5cb2cafc30907eca3ca32228782ec141ca7861333dc7e53"
+    },
+    {
+      "path": "test-version/scrub-engine.js",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/scrub-engine.js",
+      "bytes": 32006,
+      "sha256": "e19b3f722411a9123102918caa0afb8e5f39d4ec0583d9653179598824cc4855"
+    },
+    {
+      "path": "test-version/styles.css",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/styles.css?v=sound-state-20260813",
+      "bytes": 15552,
+      "sha256": "f3e6e589e8d5b9d45c02d65fbc1439ff43f4e16fc45b9307ef1f8726d51167ae"
+    },
+    {
+      "path": "assets/audio/chinese-relaxing-villatic-music.mp3",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/audio/chinese-relaxing-villatic-music.mp3?v=96k",
+      "bytes": 4587520,
+      "sha256": "1189d41169a933f6b52e35ce7af7a76b33f52b0b6d2c85b22b98bb3b4f8beb30"
+    },
+    {
+      "path": "assets/stills/desktop/1920x1080/scene-01-wutiku-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/desktop/1920x1080/scene-01-wutiku-start.png",
+      "bytes": 2433661,
+      "sha256": "a06bbe15af5d6539281780403c78aac8359b5302be735374f746c7470193b7e1"
+    },
+    {
+      "path": "assets/stills/desktop/1920x1080/scene-02-trousers-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/desktop/1920x1080/scene-02-trousers-start.png",
+      "bytes": 2399032,
+      "sha256": "8e47806379d69475cd2011a76d254bc37f085b3702c6d4ca6da97b74bb47b468"
+    },
+    {
+      "path": "assets/stills/desktop/1920x1080/scene-03-ula-boots-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/desktop/1920x1080/scene-03-ula-boots-start.png",
+      "bytes": 2135682,
+      "sha256": "54bdb6518f07918069d2f1a17834055e61152baf0b13fc8607cf9ca6a7895f90"
+    },
+    {
+      "path": "assets/stills/desktop/1920x1080/scene-04-tools-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/desktop/1920x1080/scene-04-tools-start.png",
+      "bytes": 2595334,
+      "sha256": "21f3f2ae635a7238c368d9e0e767c3420b7e3359808871dae4c6d5b53fc6fa14"
+    },
+    {
+      "path": "assets/stills/desktop/1920x1080/scene-05-patterns-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/desktop/1920x1080/scene-05-patterns-start.png",
+      "bytes": 3091200,
+      "sha256": "5fc661ccf89a3c6d0f985a99e18a23dd915eadc5f672562ef8710da6b7e404ad"
+    },
+    {
+      "path": "assets/stills/mobile/1080x1920/scene-01-wutiku-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/mobile/1080x1920/scene-01-wutiku-start.png",
+      "bytes": 2546431,
+      "sha256": "7dd4213a29a590eb17b8eaf787ef0e30b57878a322acc7ec1bec263c0e896fa6"
+    },
+    {
+      "path": "assets/stills/mobile/1080x1920/scene-02-trousers-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/mobile/1080x1920/scene-02-trousers-start.png",
+      "bytes": 2479513,
+      "sha256": "b5dfc541f3b5f8d103aa1484d1f2194094fca4ba6817fd0d5059c7b6441360b5"
+    },
+    {
+      "path": "assets/stills/mobile/1080x1920/scene-03-ula-boots-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/mobile/1080x1920/scene-03-ula-boots-start.png",
+      "bytes": 2307868,
+      "sha256": "16c55a780d23a2e35f98074bfdbdd56acdb34621e8fd208244b103867e56e135"
+    },
+    {
+      "path": "assets/stills/mobile/1080x1920/scene-04-tools-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/mobile/1080x1920/scene-04-tools-start.png",
+      "bytes": 2406302,
+      "sha256": "c8daf4277e3d62a5484bea47e6745385d9e5fae5b678690576c01f5651626dff"
+    },
+    {
+      "path": "assets/stills/mobile/1080x1920/scene-05-patterns-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/stills/mobile/1080x1920/scene-05-patterns-start.png",
+      "bytes": 3155732,
+      "sha256": "9490c02e85f4c61a508a952544c3343ef4ad7650c5192ca8cb13ac0bb2c93319"
+    },
+    {
+      "path": "assets/ui/audio-lines.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/ui/audio-lines.svg",
+      "bytes": 239,
+      "sha256": "15422996606bed452350e0e09bd4f27ce64d6188024d6d59a6093d8ada80d8ba"
+    },
+    {
+      "path": "assets/ui/chapter-01-mark.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/ui/chapter-01-mark.svg",
+      "bytes": 1096,
+      "sha256": "047b7f32fd83528e5733814d9391aac6975be7952998f15fcc35a482772ce8ee"
+    },
+    {
+      "path": "assets/ui/volume-x.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/ui/volume-x.svg",
+      "bytes": 382,
+      "sha256": "c1a905bf1e4eeee09b0367baea379af036d339a22883c29d5bfddb2023aa3dc2"
+    },
+    {
+      "path": "assets/video/desktop/web/01-wutiku-to-trousers.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/desktop/web/01-wutiku-to-trousers.mp4?v=60fps-20260729",
+      "bytes": 1447672,
+      "sha256": "fe05a9570ef7b4956d10bc796dc68a3f48f42c6a41938ea175f406e243d2cd33"
+    },
+    {
+      "path": "assets/video/desktop/web/02-trousers-to-ula.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/desktop/web/02-trousers-to-ula.mp4?v=60fps-20260729",
+      "bytes": 1353400,
+      "sha256": "142629b61a60e446072d27ec4b4e215d951e36357bec9754ba6a6d1817f5ab28"
+    },
+    {
+      "path": "assets/video/desktop/web/03-ula-to-tools.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/desktop/web/03-ula-to-tools.mp4?v=60fps-20260729",
+      "bytes": 1413174,
+      "sha256": "abaa3f1b401616b130c384cf64b466929c14893bed160712c6786dc7c67c67d6"
+    },
+    {
+      "path": "assets/video/desktop/web/04-tools-to-patterns.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/desktop/web/04-tools-to-patterns.mp4?v=60fps-20260729",
+      "bytes": 2393145,
+      "sha256": "d98c7ac25804477db64143ae4e855c19ea12d4bcb90bfcc3b5c3a2ab718f1a38"
+    },
+    {
+      "path": "assets/video/mobile/web/01-wutiku-to-trousers.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/mobile/web/01-wutiku-to-trousers.mp4?v=60fps-20260729",
+      "bytes": 2333533,
+      "sha256": "560b9f6f54792cb0a990bdd77c7360348728e674aa7f4655e40bf3b2f2999ce1"
+    },
+    {
+      "path": "assets/video/mobile/web/02-trousers-to-ula.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/mobile/web/02-trousers-to-ula.mp4?v=60fps-20260729",
+      "bytes": 1638243,
+      "sha256": "ef4e5d7b569ae8a689bb39b7433a5d95017115c7edaddde1bd8b418f5f5a0099"
+    },
+    {
+      "path": "assets/video/mobile/web/03-ula-to-tools.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/mobile/web/03-ula-to-tools.mp4?v=60fps-20260729",
+      "bytes": 1732659,
+      "sha256": "5af3338230d608a91ec2587749ca9c5cf6fa5f8ca5c9847de9f7bda19cd4570c"
+    },
+    {
+      "path": "assets/video/mobile/web/04-tools-to-patterns.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/assets/video/mobile/web/04-tools-to-patterns.mp4?v=60fps-20260729",
+      "bytes": 2321555,
+      "sha256": "2d1ae76007ffa0049540f40fc1d70be246855d550582c6579103688c6ba0de31"
+    },
+    {
+      "path": "en/assets/audio/chinese-relaxing-villatic-music.mp3",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/audio/chinese-relaxing-villatic-music.mp3?v=96k",
+      "bytes": 4587520,
+      "sha256": "1189d41169a933f6b52e35ce7af7a76b33f52b0b6d2c85b22b98bb3b4f8beb30"
+    },
+    {
+      "path": "en/assets/stills/desktop/1920x1080/scene-01-wutiku-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/desktop/1920x1080/scene-01-wutiku-start.png",
+      "bytes": 2433661,
+      "sha256": "a06bbe15af5d6539281780403c78aac8359b5302be735374f746c7470193b7e1"
+    },
+    {
+      "path": "en/assets/stills/desktop/1920x1080/scene-02-trousers-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/desktop/1920x1080/scene-02-trousers-start.png",
+      "bytes": 2399032,
+      "sha256": "8e47806379d69475cd2011a76d254bc37f085b3702c6d4ca6da97b74bb47b468"
+    },
+    {
+      "path": "en/assets/stills/desktop/1920x1080/scene-03-ula-boots-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/desktop/1920x1080/scene-03-ula-boots-start.png",
+      "bytes": 2135682,
+      "sha256": "54bdb6518f07918069d2f1a17834055e61152baf0b13fc8607cf9ca6a7895f90"
+    },
+    {
+      "path": "en/assets/stills/desktop/1920x1080/scene-04-tools-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/desktop/1920x1080/scene-04-tools-start.png",
+      "bytes": 2595334,
+      "sha256": "21f3f2ae635a7238c368d9e0e767c3420b7e3359808871dae4c6d5b53fc6fa14"
+    },
+    {
+      "path": "en/assets/stills/desktop/1920x1080/scene-05-patterns-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/desktop/1920x1080/scene-05-patterns-start.png",
+      "bytes": 3091200,
+      "sha256": "5fc661ccf89a3c6d0f985a99e18a23dd915eadc5f672562ef8710da6b7e404ad"
+    },
+    {
+      "path": "en/assets/stills/mobile/1080x1920/scene-01-wutiku-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/mobile/1080x1920/scene-01-wutiku-start.png",
+      "bytes": 2546431,
+      "sha256": "7dd4213a29a590eb17b8eaf787ef0e30b57878a322acc7ec1bec263c0e896fa6"
+    },
+    {
+      "path": "en/assets/stills/mobile/1080x1920/scene-02-trousers-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/mobile/1080x1920/scene-02-trousers-start.png",
+      "bytes": 2479513,
+      "sha256": "b5dfc541f3b5f8d103aa1484d1f2194094fca4ba6817fd0d5059c7b6441360b5"
+    },
+    {
+      "path": "en/assets/stills/mobile/1080x1920/scene-03-ula-boots-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/mobile/1080x1920/scene-03-ula-boots-start.png",
+      "bytes": 2307868,
+      "sha256": "16c55a780d23a2e35f98074bfdbdd56acdb34621e8fd208244b103867e56e135"
+    },
+    {
+      "path": "en/assets/stills/mobile/1080x1920/scene-04-tools-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/mobile/1080x1920/scene-04-tools-start.png",
+      "bytes": 2406302,
+      "sha256": "c8daf4277e3d62a5484bea47e6745385d9e5fae5b678690576c01f5651626dff"
+    },
+    {
+      "path": "en/assets/stills/mobile/1080x1920/scene-05-patterns-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/stills/mobile/1080x1920/scene-05-patterns-start.png",
+      "bytes": 3155732,
+      "sha256": "9490c02e85f4c61a508a952544c3343ef4ad7650c5192ca8cb13ac0bb2c93319"
+    },
+    {
+      "path": "en/assets/ui/audio-lines.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/ui/audio-lines.svg",
+      "bytes": 239,
+      "sha256": "15422996606bed452350e0e09bd4f27ce64d6188024d6d59a6093d8ada80d8ba"
+    },
+    {
+      "path": "en/assets/ui/chapter-01-mark.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/ui/chapter-01-mark.svg",
+      "bytes": 1096,
+      "sha256": "047b7f32fd83528e5733814d9391aac6975be7952998f15fcc35a482772ce8ee"
+    },
+    {
+      "path": "en/assets/ui/volume-x.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/ui/volume-x.svg",
+      "bytes": 382,
+      "sha256": "c1a905bf1e4eeee09b0367baea379af036d339a22883c29d5bfddb2023aa3dc2"
+    },
+    {
+      "path": "en/assets/video/desktop/web/01-wutiku-to-trousers.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/desktop/web/01-wutiku-to-trousers.mp4?v=60fps-20260729",
+      "bytes": 1447672,
+      "sha256": "fe05a9570ef7b4956d10bc796dc68a3f48f42c6a41938ea175f406e243d2cd33"
+    },
+    {
+      "path": "en/assets/video/desktop/web/02-trousers-to-ula.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/desktop/web/02-trousers-to-ula.mp4?v=60fps-20260729",
+      "bytes": 1353400,
+      "sha256": "142629b61a60e446072d27ec4b4e215d951e36357bec9754ba6a6d1817f5ab28"
+    },
+    {
+      "path": "en/assets/video/desktop/web/03-ula-to-tools.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/desktop/web/03-ula-to-tools.mp4?v=60fps-20260729",
+      "bytes": 1413174,
+      "sha256": "abaa3f1b401616b130c384cf64b466929c14893bed160712c6786dc7c67c67d6"
+    },
+    {
+      "path": "en/assets/video/desktop/web/04-tools-to-patterns.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/desktop/web/04-tools-to-patterns.mp4?v=60fps-20260729",
+      "bytes": 2393145,
+      "sha256": "d98c7ac25804477db64143ae4e855c19ea12d4bcb90bfcc3b5c3a2ab718f1a38"
+    },
+    {
+      "path": "en/assets/video/mobile/web/01-wutiku-to-trousers.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/mobile/web/01-wutiku-to-trousers.mp4?v=60fps-20260729",
+      "bytes": 2333533,
+      "sha256": "560b9f6f54792cb0a990bdd77c7360348728e674aa7f4655e40bf3b2f2999ce1"
+    },
+    {
+      "path": "en/assets/video/mobile/web/02-trousers-to-ula.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/mobile/web/02-trousers-to-ula.mp4?v=60fps-20260729",
+      "bytes": 1638243,
+      "sha256": "ef4e5d7b569ae8a689bb39b7433a5d95017115c7edaddde1bd8b418f5f5a0099"
+    },
+    {
+      "path": "en/assets/video/mobile/web/03-ula-to-tools.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/mobile/web/03-ula-to-tools.mp4?v=60fps-20260729",
+      "bytes": 1732659,
+      "sha256": "5af3338230d608a91ec2587749ca9c5cf6fa5f8ca5c9847de9f7bda19cd4570c"
+    },
+    {
+      "path": "en/assets/video/mobile/web/04-tools-to-patterns.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/en/assets/video/mobile/web/04-tools-to-patterns.mp4?v=60fps-20260729",
+      "bytes": 2321555,
+      "sha256": "2d1ae76007ffa0049540f40fc1d70be246855d550582c6579103688c6ba0de31"
+    },
+    {
+      "path": "test-version/assets/audio/chinese-relaxing-villatic-music.mp3",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/audio/chinese-relaxing-villatic-music.mp3?v=96k",
+      "bytes": 4587520,
+      "sha256": "1189d41169a933f6b52e35ce7af7a76b33f52b0b6d2c85b22b98bb3b4f8beb30"
+    },
+    {
+      "path": "test-version/assets/stills/desktop/1920x1080/scene-01-wutiku-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/desktop/1920x1080/scene-01-wutiku-start.png",
+      "bytes": 2433661,
+      "sha256": "a06bbe15af5d6539281780403c78aac8359b5302be735374f746c7470193b7e1"
+    },
+    {
+      "path": "test-version/assets/stills/desktop/1920x1080/scene-02-trousers-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/desktop/1920x1080/scene-02-trousers-start.png",
+      "bytes": 2399032,
+      "sha256": "8e47806379d69475cd2011a76d254bc37f085b3702c6d4ca6da97b74bb47b468"
+    },
+    {
+      "path": "test-version/assets/stills/desktop/1920x1080/scene-03-ula-boots-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/desktop/1920x1080/scene-03-ula-boots-start.png",
+      "bytes": 2135682,
+      "sha256": "54bdb6518f07918069d2f1a17834055e61152baf0b13fc8607cf9ca6a7895f90"
+    },
+    {
+      "path": "test-version/assets/stills/desktop/1920x1080/scene-04-tools-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/desktop/1920x1080/scene-04-tools-start.png",
+      "bytes": 2595334,
+      "sha256": "21f3f2ae635a7238c368d9e0e767c3420b7e3359808871dae4c6d5b53fc6fa14"
+    },
+    {
+      "path": "test-version/assets/stills/desktop/1920x1080/scene-05-patterns-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/desktop/1920x1080/scene-05-patterns-start.png",
+      "bytes": 3091200,
+      "sha256": "5fc661ccf89a3c6d0f985a99e18a23dd915eadc5f672562ef8710da6b7e404ad"
+    },
+    {
+      "path": "test-version/assets/stills/mobile/1080x1920/scene-01-wutiku-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/mobile/1080x1920/scene-01-wutiku-start.png",
+      "bytes": 2546431,
+      "sha256": "7dd4213a29a590eb17b8eaf787ef0e30b57878a322acc7ec1bec263c0e896fa6"
+    },
+    {
+      "path": "test-version/assets/stills/mobile/1080x1920/scene-02-trousers-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/mobile/1080x1920/scene-02-trousers-start.png",
+      "bytes": 2479513,
+      "sha256": "b5dfc541f3b5f8d103aa1484d1f2194094fca4ba6817fd0d5059c7b6441360b5"
+    },
+    {
+      "path": "test-version/assets/stills/mobile/1080x1920/scene-03-ula-boots-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/mobile/1080x1920/scene-03-ula-boots-start.png",
+      "bytes": 2307868,
+      "sha256": "16c55a780d23a2e35f98074bfdbdd56acdb34621e8fd208244b103867e56e135"
+    },
+    {
+      "path": "test-version/assets/stills/mobile/1080x1920/scene-04-tools-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/mobile/1080x1920/scene-04-tools-start.png",
+      "bytes": 2406302,
+      "sha256": "c8daf4277e3d62a5484bea47e6745385d9e5fae5b678690576c01f5651626dff"
+    },
+    {
+      "path": "test-version/assets/stills/mobile/1080x1920/scene-05-patterns-start.png",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/stills/mobile/1080x1920/scene-05-patterns-start.png",
+      "bytes": 3155732,
+      "sha256": "9490c02e85f4c61a508a952544c3343ef4ad7650c5192ca8cb13ac0bb2c93319"
+    },
+    {
+      "path": "test-version/assets/ui/audio-lines.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/ui/audio-lines.svg",
+      "bytes": 239,
+      "sha256": "15422996606bed452350e0e09bd4f27ce64d6188024d6d59a6093d8ada80d8ba"
+    },
+    {
+      "path": "test-version/assets/ui/chapter-01-mark.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/ui/chapter-01-mark.svg",
+      "bytes": 1096,
+      "sha256": "047b7f32fd83528e5733814d9391aac6975be7952998f15fcc35a482772ce8ee"
+    },
+    {
+      "path": "test-version/assets/ui/volume-x.svg",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/ui/volume-x.svg",
+      "bytes": 382,
+      "sha256": "c1a905bf1e4eeee09b0367baea379af036d339a22883c29d5bfddb2023aa3dc2"
+    },
+    {
+      "path": "test-version/assets/video/desktop/web/01-wutiku-to-trousers.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/desktop/web/01-wutiku-to-trousers.mp4?v=60fps-20260729",
+      "bytes": 1447672,
+      "sha256": "fe05a9570ef7b4956d10bc796dc68a3f48f42c6a41938ea175f406e243d2cd33"
+    },
+    {
+      "path": "test-version/assets/video/desktop/web/02-trousers-to-ula.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/desktop/web/02-trousers-to-ula.mp4?v=60fps-20260729",
+      "bytes": 1353400,
+      "sha256": "142629b61a60e446072d27ec4b4e215d951e36357bec9754ba6a6d1817f5ab28"
+    },
+    {
+      "path": "test-version/assets/video/desktop/web/03-ula-to-tools.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/desktop/web/03-ula-to-tools.mp4?v=60fps-20260729",
+      "bytes": 1413174,
+      "sha256": "abaa3f1b401616b130c384cf64b466929c14893bed160712c6786dc7c67c67d6"
+    },
+    {
+      "path": "test-version/assets/video/desktop/web/04-tools-to-patterns.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/desktop/web/04-tools-to-patterns.mp4?v=60fps-20260729",
+      "bytes": 2393145,
+      "sha256": "d98c7ac25804477db64143ae4e855c19ea12d4bcb90bfcc3b5c3a2ab718f1a38"
+    },
+    {
+      "path": "test-version/assets/video/mobile/web/01-wutiku-to-trousers.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/mobile/web/01-wutiku-to-trousers.mp4?v=60fps-20260729",
+      "bytes": 2333533,
+      "sha256": "560b9f6f54792cb0a990bdd77c7360348728e674aa7f4655e40bf3b2f2999ce1"
+    },
+    {
+      "path": "test-version/assets/video/mobile/web/02-trousers-to-ula.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/mobile/web/02-trousers-to-ula.mp4?v=60fps-20260729",
+      "bytes": 1638243,
+      "sha256": "ef4e5d7b569ae8a689bb39b7433a5d95017115c7edaddde1bd8b418f5f5a0099"
+    },
+    {
+      "path": "test-version/assets/video/mobile/web/03-ula-to-tools.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/mobile/web/03-ula-to-tools.mp4?v=60fps-20260729",
+      "bytes": 1732659,
+      "sha256": "5af3338230d608a91ec2587749ca9c5cf6fa5f8ca5c9847de9f7bda19cd4570c"
+    },
+    {
+      "path": "test-version/assets/video/mobile/web/04-tools-to-patterns.mp4",
+      "url": "https://hezhe-fishskin-scroll-world.pages.dev/test-version/assets/video/mobile/web/04-tools-to-patterns.mp4?v=60fps-20260729",
+      "bytes": 2321555,
+      "sha256": "2d1ae76007ffa0049540f40fc1d70be246855d550582c6579103688c6ba0de31"
+    }
+  ]
+}
